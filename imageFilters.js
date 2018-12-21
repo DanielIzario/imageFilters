@@ -1,5 +1,7 @@
 // Daniel Izario
 
+var imageFilters = {};
+
 imageFilters.getImage = function(img) {
   var c = document.createElement('canvas');
       c.width = img.width;
